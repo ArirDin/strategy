@@ -3,7 +3,7 @@
 
 #include "quackbehavior.h"
 
-class MuteQuack
+class MuteQuack : public QuackBehavior
 {
 public:
     MuteQuack();

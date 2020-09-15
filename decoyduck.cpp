@@ -2,7 +2,8 @@
 
 DecoyDuck::DecoyDuck()
 {
-
+    quackbehavior = new MuteQuack();
+    flybehavior = new FlyNoWay();
 }
 
 void DecoyDuck::display() {
