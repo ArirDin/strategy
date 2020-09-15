@@ -19,9 +19,11 @@ SOURCES += \
         duck.cpp \
         flybehavior.cpp \
         flynoway.cpp \
+        flyrocketpowered.cpp \
         flywithwings.cpp \
         main.cpp \
         mallardduck.cpp \
+        modelduck.cpp \
         mutequack.cpp \
         quack.cpp \
         quackbehavior.cpp \
@@ -39,8 +41,10 @@ HEADERS += \
     duck.h \
     flybehavior.h \
     flynoway.h \
+    flyrocketpowered.h \
     flywithwings.h \
     mallardduck.h \
+    modelduck.h \
     mutequack.h \
     quack.h \
     quackbehavior.h \

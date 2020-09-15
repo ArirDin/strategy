@@ -4,6 +4,7 @@
 #include "redheadduck.h"
 #include "rubberduck.h"
 #include "decoyduck.h"
+#include "modelduck.h"
 
 int main(int argc, char *argv[])
 {
@@ -28,6 +29,11 @@ int main(int argc, char *argv[])
     d4->display();
     d4->performQuack();
     d4->performFly();
+    cout << "------------------------" << endl;
+    Duck *d5 = new ModelDuck();
+    d5->display();
+    d5->performQuack();
+    d5->performFly();
 
     return a.exec();
 }

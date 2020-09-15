@@ -11,3 +11,12 @@ void Duck::swim() {
 void Duck::performFly() {
     flybehavior->fly();
 }
+/*
+void Duck::setFlyBhavior() {
+    flybehavior = fb;
+}
+
+void Duck::setQuackBehavior() {
+   quackbehavior = qb;
+}
+*/

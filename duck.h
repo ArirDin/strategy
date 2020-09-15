@@ -9,6 +9,7 @@
 #include "mutequack.h"
 #include "flynoway.h"
 #include "squeak.h"
+#include "flyrocketpowered.h"
 
 using namespace std;
 
@@ -20,6 +21,9 @@ public:
 
     void performFly();
     void performQuack();
+
+    void setFlyBhavior();
+    void setQuackBehavior();
 
     void swim();
     virtual void display() = 0;
