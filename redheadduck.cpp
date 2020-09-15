@@ -6,5 +6,5 @@ RedheadDuck::RedheadDuck()
 }
 
 void RedheadDuck::display() {
-    cout << "I'm a redhead duck" << endl;
+    cout << "I'm a Redhead duck" << endl;
 }
