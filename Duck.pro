@@ -17,6 +17,9 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         decoyduck.cpp \
         duck.cpp \
+        flybehavior.cpp \
+        flynoway.cpp \
+        flywithwings.cpp \
         main.cpp \
         mallardduck.cpp \
         redheadduck.cpp \
@@ -30,6 +33,9 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 HEADERS += \
     decoyduck.h \
     duck.h \
+    flybehavior.h \
+    flynoway.h \
+    flywithwings.h \
     mallardduck.h \
     redheadduck.h \
     rubberduck.h
